@@ -59,3 +59,6 @@ console.log(value);
 value = 100
 value++
 console.log(value);
+
+// link to study
+// https://tc39.es/ecma262/#sec-type-conversion
