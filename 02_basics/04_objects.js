@@ -27,7 +27,7 @@ const obj3 = {5: "a", 6: "b"}
 
 // const obj4 = Object.assign({}, obj1, obj2, obj3)
 const obj4 = {...obj1, ...obj2, ...obj3}
-console.log(obj4);
+// console.log(obj4);
 
 const users = [
     {
@@ -49,10 +49,38 @@ const users = [
 ]
 
 users[1]. email
-console.log(tinderUserOne);
+// console.log(tinderUserOne);
 
-console.log(Object.keys(tinderUserOne));
-console.log(Object.values(tinderUserOne));
-console.log(Object.entries(tinderUserOne));
-console.log(tinderUserOne.hasOwnProperty('isLoggedIn'));
-console.log(tinderUserOne.hasOwnProperty('isLogged'));
+// console.log(Object.keys(tinderUserOne));
+// console.log(Object.values(tinderUserOne));
+// console.log(Object.entries(tinderUserOne));
+// console.log(tinderUserOne.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUserOne.hasOwnProperty('isLogged'));
+
+
+const course = {
+    coursename: "Js in Hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+const {courseInstructor: instructor} = course // de structuring
+console.log(instructor);
+
+// const navbar = ({company}) => { // de structuring
+
+// }
+// navbar(company = "hitesh")
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in Hindi",
+//     "price": "free"
+// } 
+
+[
+    {},
+    {},
+    {},
+]
